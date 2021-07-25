@@ -1,4 +1,5 @@
-//SE Assignment
+//Software Engineering Assignment
+//To make puzzle funtional using js
 var bt1 
 var bt2 
 var bt3 
@@ -195,6 +196,7 @@ function btn9(){
 	gameOver()
 }//btn9 end
 
+//when puzzle completed give winning message
 function gameOver(){
     getValue();
 	if(bt1==1 && bt2==2 && bt3==3 && bt4==4 && bt5==5 && bt6==6 && bt7==7 && bt8==8 && bt9==" ")
